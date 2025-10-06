@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify- Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotifyclone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- main layout -contains three part-->
+    <div class="main">
+                  <!-- sidebar  -->
+        <div class="sidebar">
+
+            <!-- navbar for home and search  -->
+            <div class="nav">
+
+                <div class="nav-option" style="opacity:1">
+                <i class="fa-solid fa-house"> </i> <!--icons from google icons-->
+                <a href="#">Home</a>
+                </div>
+
+
+                <div class="nav-option" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+                </div>
+
+            </div>
+        
+           
+                <!-- class for library  -->
+            <div class="library">
+
+
+                <div class="options">
+                    <div class="lib-option nav-option">
+
+                        <img src="library_icon.png" alt="lib-icon">
+                        <a href="#">Your Library</a>
+                    
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+
+                <div class=" library-box">
+                    <!-- box1 -->
+                    <div class="box">
+                        <p class="box-p1"> Create your first play list</p>
+                        <p class="box-p2">It's easy,we'll help you</p>
+                        <button class="badge"> Create playlist</button>
+                    </div>
+
+                    <!-- box 2 -->
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+          <!-- main-content -->
+        <div class="main-content">
+
+            <div class="sticky-nav">
+               <!-- nav icons of left side -->
+                <div class="sticky-nav-icons"> 
+                    <img src="backward_icon.png" alt="img">
+                    <img src="forward_icon.png" alt="img" class="hide"><!-- forward button-->
+                </div>
+
+                <!-- nav options of right side -->
+               <div class="sticky-nav-options">
+                 <button class="badge nav-item  hide">Explore Premium</button> <!--h will hide at some width-->
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px"></i>Install App</button>
+                <i class="fa-regular fa-user nav-item "></i></div>
+               
+            </div>
+       
+
+
+
+             <!-- first  row card container -->
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <!-- first card -->
+                    <div class="card">
+                       <img src="chand si mehbooba.jpg" alt="1" class="card-img">
+                       <p class="card-title">Top50-Global</p>
+                       <p class="card-info">Your daily update of the most played tracks right...</p>
+                    </div>
+                </div>
+            
+
+             <!-- second row card container -->
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <!-- first card -->
+                    <div class="card">
+                        <img src="darkhast.jpg" alt="1" class="card-img">
+                        <p class="card-title">Darkhaast ho tum..</p>
+                        <p class="card-info">Spotify</p>
+                     </div>
+                    <!--second card -->
+                     <div class="card">
+                        <img src="dil ke pass.jpg" alt="1" class="card-img">
+                        <p class="card-title">Dil ke pass</p>
+                        <p class="card-info">Spotify</p>
+                     </div>
+
+                     <!--third card-->
+                    <div class="card">
+                       <img src="card2img.jpeg" alt="1" class="card-img">
+                       <p class="card-title">Mahiye Jinna Sohn..</p>
+                       <p class="card-info">Spotify</p>
+                    </div>
+  
+                    <!-- fourth card -->
+                    <div class="card">
+                        <img src="hawayein.jpg" alt="1" class="card-img">
+                        <p class="card-title">Mahiye Jinna Sohn..</p>
+                        <p class="card-info">Spotify</p>
+                     </div>
+
+                    <!--fifth card --> 
+                    <div class="card">
+                        <img src="hawayein.jpg" alt="1" class="card-img">
+                        <p class="card-title">Hawayein..</p>
+                        <p class="card-info">Spotify Studios</p>
+                     </div>
+
+                     <!-- fifthcard -->
+                    <div class="card">
+                        <img src="card4img.jpeg" alt="1" class="card-img">
+                        <p class="card-title">Alter Ego Naa rea...</p>
+                        <p class="card-info">TMV Studios</p>
+                     </div>
+                </div>
+            
+               
+                 <!-- third row card container -->
+                 <h2>Featured Charts </h2>
+                 <div class="cards-container">
+                     <!-- first card -->
+                     <div class="card">
+                        <img src="card5img.jpeg" alt="1" class="card-img">
+                        <p class="card-title">Top Songs -Global</p>
+                        <p class="card-info">Your weekly update of the most played tracks right...</p>
+                     </div>
+ 
+                     <!-- second card -->
+                     <div class="card">
+                         <img src="card6img.jpeg" alt="1" class="card-img">
+                         <p class="card-title">Top Songs -India </p>
+                         <p class="card-info">Your weekly update of the most played tracks right...</p>
+                      </div>
+ 
+                      <!-- third card -->
+                     <div class="card">
+                         <img src="card1img.jpeg" alt="1" class="card-img">
+                         <p class="card-title">Top50-Global</p>
+                         <p class="card-info">Your daily update of the most played tracks right...</p>
+                      </div>
+                      
+                 </div>
+
+
+                 <!-- footer -->
+                 <div class="footer">
+                    <div class="line"></div>
+                 </div>
+             
+                 
+        </div>
+
+
+
+
+        <!-- music-player -->
+         <div class="music-player">
+
+            <!-- for left  -->
+           <div class="album">
+               <span class="play">
+                 <img src="darkhast.jpg" alt="1"  style="height:50px; width:50px">
+               </span>
+
+              <div class="para">
+                 <H3 class="p-one">Darkhaast</h3>
+                 <p class="p-two">Arijit Singh, Sunidhi Chauhan</p>
+              </div>
+
+              <div class="ic">
+                <img src="heart.png" class="heart">
+                <img src="msg-icon.png" class="msg">
+
+              </div>
+           </div>
+
+
+           <!-- center player -->
+           <div class="player">
+                       <!-- for icons -->
+               <div class="player-controls">
+                <img src="player_icon1.png" alt="1" class="player-control-icon">
+                <img src="player_icon2.png" alt="2" class="player-control-icon">
+                <img src="player_icon3.png" alt="3" class="player-control-icon" style="opacity:1;height:2rem;">
+                <img src="player_icon4.png" alt="4" class="player-control-icon">
+                <img src="player_icon5.png" alt="5" class="player-control-icon">
+
+               </div>
+                 <!-- playback-bar -->
+               <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <!-- progress bar -->
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3.33</span>
+
+               </div>
+
+           </div>
+
+           <!-- right side control -->
+           <div class="control">
+              <div class="icons">
+                  <i class="fa-solid fa-play i"></i>
+                  <i class="fa-solid fa-edit i"></i>
+                  <i class="fas fa-bars i"></i>
+                  <i class="fa-solid fa-images i"></i>
+                  <i class="fa-solid fa-volume-up i"></i>
+              </div>
+
+              <div class="control-2">
+                 <input type="range" min="0" max="100" class="control-bar" step="1">
+              </div>
+              
+           </div>
+
+
+         </div>
+    </div>
+</body>
+    
+</body>
+</html>
